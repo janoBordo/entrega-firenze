@@ -1,0 +1,29 @@
+@mixin flexbox($display, $direction, $wrap, $justify-content, $align-items){
+    display: $display;
+    flex-direction: $direction;
+    wrap: $wrap;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+footer{
+    @include flexbox(flex, row, wrap, space-between, center);
+    background-color: black;
+
+    .footer-redsocial{
+        display: inline-flex;
+        width: 90px;
+        height: 90px;
+        margin: 10px;
+    }$display, $direction, $wrap, $justify-content, $align-items
+
+    .footer-ubicacion{
+        @include flexbox(flex, row, wrap, center, center);
+        color: white;
+        font-family:  'Nunito', sans-serif ;
+        font-style: 16px;
+        text-decoration: none;
+        margin: 5px;
+        
+    }
+}

@@ -1,0 +1,53 @@
+.testimonios-section{
+    display: flex;
+    flex-direction: column;
+
+    .testimonios-tarjetas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius: 2px;
+        margin: 30px;
+        justify-content: center;
+       
+        .testimonios-section__div{
+            display: flex ;
+            align-items: center;
+            justify-content: center;
+             width: 350px;
+            height: 220px;
+            border: solid 2px;
+            border-radius: 4px;
+            margin: 5px;
+         }
+         
+         .testimonios-section__p{
+         margin: 8px;
+         font-family: 'Nunito', sans-serif;
+         font-size: 14px;
+         text-align: center;
+         }
+    }
+
+    .testimonios-imagenes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      
+        .testimonios-galeria__img{
+            width: 400px;
+            height: 400px;
+            margin: 8px;
+            border-radius: 4px;
+            transition: 1s;
+
+            .testimonios-galeria__img:hover{
+                width: 480px;
+                height: 480px;
+                transition: 1s;
+            }
+        }
+        
+    }
+}

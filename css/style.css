@@ -1,0 +1,72 @@
+body{
+    margin: 0; padding: 0;
+    background-image: url(../imagenes/fondodifuminado.jpg);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+#header-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    text-decoration:none;
+
+}
+
+.header-nav__a {
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    color: black;
+    text-decoration:none;
+    margin: 10px;
+}
+
+
+
+
+
+.header-nav{
+    background:linear-gradient(90deg, rgba(54,0,0,1) 0%, rgba(116,0,0,1) 50%, rgba(212,0,0,1) 100%);
+}
+
+.home-div{
+    display: flex;
+    justify-content: center;
+}
+
+.home-imagen{
+    display: block;
+    width: 100%;
+}
+
+.home-horario{
+    display: none;
+}
+
+.menu-celular{
+    display: none;
+}
+
+
+
+.paginas-main__h2{
+    display: flex;
+    justify-content: center;
+}
+
+.paginas-main__a{
+    display: flex;
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    text-decoration:none;
+
+}
+
+
+
+
+
+
