@@ -15,7 +15,7 @@ footer{
         width: 90px;
         height: 90px;
         margin: 10px;
-    }$display, $direction, $wrap, $justify-content, $align-items
+    }
 
     .footer-ubicacion{
         @include flexbox(flex, row, wrap, center, center);
