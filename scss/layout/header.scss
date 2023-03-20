@@ -1,14 +1,14 @@
 @mixin flexbox($display, $direction, $wrap, $justify-content, $align-items){
     display: $display;
     flex-direction: $direction;
-    wrap: $wrap;
+    flex-wrap: $wrap;
     justify-content: $justify-content;
     align-items: $align-items;
 }
 
 #header-logo{
-    @include flexbox(flex, row, wrap, center, center)
-    text-decoration:none;
+    @include flexbox(flex, row, wrap, center, center);
+    text-decoration: none;
 
     .header-nav{
         background:linear-gradient(90deg, rgba(54,0,0,1) 0%, rgba(116,0,0,1) 50%, rgba(212,0,0,1) 100%);

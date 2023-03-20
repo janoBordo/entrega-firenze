@@ -42,7 +42,7 @@
             border-radius: 4px;
             transition: 1s;
 
-            .testimonios-galeria__img:hover{
+            &:hover{
                 width: 480px;
                 height: 480px;
                 transition: 1s;
