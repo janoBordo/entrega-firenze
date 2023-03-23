@@ -1,29 +1,39 @@
-@mixin flexbox($display, $direction, $wrap, $justify-content, $align-items){
-    display: $display;
-    flex-direction: $direction;
-    flex-wrap: $wrap;
-    justify-content: $justify-content;
-    align-items: $align-items;
-}
 
-#header-logo{
-    @include flexbox(flex, row, wrap, center, center);
-    text-decoration: none;
 
+header{
+    height: 80;
+
+    #header-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        text-decoration:none;
+    
+    }
+    
+    
+    .header-nav__a {
+        display: inline;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        text-decoration:none;
+        margin: 20px;
+    }
+    
+    
+    
+    
+    
     .header-nav{
-        background:linear-gradient(90deg, rgba(54,0,0,1) 0%, rgba(116,0,0,1) 50%, rgba(212,0,0,1) 100%);
         
-        .header-nav__a {
-            display: inline;
-            font-size: 20px;
-            text-align: center;
-            font-family: 'Manrope', sans-serif;
-            color: black;
-            text-decoration:none;
-            margin: 10px;
-        }
-    }                                                                                                                                                                       
+        background:linear-gradient(90deg, rgba(54,0,0,1) 0%, rgba(116,0,0,1) 50%, rgba(212,0,0,1) 100%);
+    }
+    
 }
+
+
 
 
 

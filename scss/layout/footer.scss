@@ -20,7 +20,6 @@ footer{
     .footer-ubicacion{
         @include flexbox(flex, row, wrap, center, center);
         color: white;
-        font-family:  'Nunito', sans-serif ;
         font-style: 16px;
         text-decoration: none;
         margin: 5px;

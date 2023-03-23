@@ -12,6 +12,7 @@
        
         .testimonios-section__div{
             display: flex ;
+            position: relative;
             align-items: center;
             justify-content: center;
              width: 350px;
@@ -20,20 +21,26 @@
             border-radius: 4px;
             margin: 5px;
          }
-         
+         .tetimonios-estrellas{
+            position: absolute;
+            left: 0;
+             top: 0; 
+            margin: 5px;
+            width: 110px;
+             
+         }
          .testimonios-section__p{
-         margin: 8px;
-         font-family: 'Nunito', sans-serif;
-         font-size: 14px;
-         text-align: center;
+             margin: 8px;
+             font-size: 14px;
+             text-align: center;
          }
     }
 
     .testimonios-imagenes{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
       
         .testimonios-galeria__img{
             width: 400px;
